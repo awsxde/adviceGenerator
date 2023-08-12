@@ -9,7 +9,7 @@
 -  Replace <“username”> with the username of the Github user who owns the repository, and <repo-name> with the name of the repository.
 
 2. Navigate to the project directory: After the repository is cloned, navigate to the project directory using the following command:
--  cd <repo-name>
+-  cd repo-name
 
 3. Install dependencies: Once you’re inside the project directory, run the following command to install the dependencies required for the 
    project:
