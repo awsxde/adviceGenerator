@@ -1,0 +1,36 @@
+@media only screen and (max-width: 376px) {
+  html {
+    font-size: 7px;
+  }
+
+  .card {
+    width: 90vw;
+  }
+
+  .advice {
+    width: 65vw;
+    line-height: 1.5;
+  }
+
+  .divider--desktop {
+    display: none;
+  }
+
+  .divider--mobile {
+    zoom: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button:link,
+  .button:visited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      zoom: 0.75;
+    }
+  }
+}

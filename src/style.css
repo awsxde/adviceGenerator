@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  height: 100vh;
+  box-sizing: border-box; }
+
+body {
+  background-color: #1f2632;
+  font-family: "Manrope", sans-serif; }
+  body button,
+  body input {
+    font-family: inherit; }
+
+.card {
+  width: 55rem;
+  height: auto;
+  padding: 4.5rem 5rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #323a49;
+  border-radius: 1.6rem; }
+
+.advice-id {
+  color: #52ffa8;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase; }
+
+.advice {
+  width: 45rem;
+  height: auto;
+  margin: 2.3rem 0 7rem 0;
+  color: #cee3e9;
+  font-size: 2.8rem; }
+
+.card-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+  position: absolute;
+  bottom: -3rem; }
+
+.divider--mobile {
+  display: none; }
+
+.button:link,
+.button:visited {
+  width: 6.5rem;
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 10rem;
+  background-color: #52ffa8; }
+
+.button:hover,
+.button:active {
+  box-shadow: 0 5px 40px #54ffa9; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media only screen and (max-width: 376px) {
+  html {
+    font-size: 7px; }
+  .card {
+    width: 90vw; }
+  .advice {
+    width: 65vw;
+    line-height: 1.5; }
+  .divider--desktop {
+    display: none; }
+  .divider--mobile {
+    zoom: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .button:link,
+  .button:visited {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .button:link svg,
+    .button:visited svg {
+      zoom: 0.75; } }

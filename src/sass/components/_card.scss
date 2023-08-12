@@ -1,0 +1,55 @@
+.card {
+  width: 55rem;
+  height: auto;
+  padding: 4.5rem 5rem;
+  position: relative;
+  @include flex(column, flex-start, center);
+  text-align: center;
+  background-color: $Dark-Grayish-Blue;
+  border-radius: 1.6rem;
+}
+
+// <!-- card top -->
+
+.advice-id {
+  color: $Neon-Green;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.advice {
+  width: 45rem;
+  height: auto;
+  margin: 2.3rem 0 7rem 0;
+  color: $Light-Cyan;
+  font-size: 2.8rem;
+}
+
+// <!-- card bottom -->
+
+.card-bottom {
+  @include flex(column, center, center);
+  gap: 3.5rem;
+  position: absolute;
+  bottom: -3rem;
+}
+
+.divider--mobile {
+  display: none;
+}
+
+.button:link,
+.button:visited {
+  width: 6.5rem;
+  height: 6.5rem;
+  @include flex(column, center, center);
+  border: none;
+  border-radius: 10rem;
+  background-color: $Neon-Green;
+}
+
+.button:hover,
+.button:active {
+  box-shadow: 0 5px 40px lighten($Neon-Green, 0.4);
+}

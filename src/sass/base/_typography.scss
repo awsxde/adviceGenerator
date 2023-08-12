@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+body {
+  background-color: $Dark-Blue;
+  font-family: "Manrope", sans-serif;
+
+  button,
+  input {
+    font-family: inherit;
+  }
+}
