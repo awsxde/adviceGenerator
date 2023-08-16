@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/awsxde/adviceGenerator/static/css/main.31517152.css",
+    "main.js": "/awsxde/adviceGenerator/static/js/main.b2051f3a.js",
+    "index.html": "/awsxde/adviceGenerator/index.html",
+    "main.31517152.css.map": "/awsxde/adviceGenerator/static/css/main.31517152.css.map",
+    "main.b2051f3a.js.map": "/awsxde/adviceGenerator/static/js/main.b2051f3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31517152.css",
+    "static/js/main.b2051f3a.js"
+  ]
+}
